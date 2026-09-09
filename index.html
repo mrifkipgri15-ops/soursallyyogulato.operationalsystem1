@@ -245,6 +245,7 @@ const firebaseConfig = {
   storageBucket: "soursallyyogulato-29c94.firebasestorage.app",
   messagingSenderId: "791257346951",
   appId: "1:791257346951:web:0924b895ca028f8f121922"
+   measurementId: "G-LNL0RXWXXK"
 };
 function cloudConfigured(){return firebaseConfig.apiKey && !firebaseConfig.apiKey.startsWith("GANTI_") && firebaseConfig.projectId && !firebaseConfig.projectId.startsWith("GANTI_")}
 function setCloudStatus(text,kind=""){let e=document.getElementById("cloudStatus");if(!e)return;e.textContent=text;e.className="badge "+kind}
