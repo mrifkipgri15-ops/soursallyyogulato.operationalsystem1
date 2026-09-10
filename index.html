@@ -239,12 +239,12 @@ function wireFilterCascades(){["global","att","stock","inv","assistant"].forEach
    Semua browser yang membuka ERP akan menerima perubahan melalui onSnapshot.
 */
 const firebaseConfig = {
-  apiKey: "AIzaSyCIPs7gUmgN-pTAkxXPRO3bUJIQnpJ31r8",
-  authDomain: "soursallyyogulato-29c94.firebaseapp.com",
-  projectId: "soursallyyogulato-29c94",
-  storageBucket: "soursallyyogulato-29c94.firebasestorage.app",
-  messagingSenderId: "791257346951",
-  appId: "1:791257346951:web:0924b895ca028f8f121922"
+  apiKey: "AIzaSyDmMVys25fhL9tsqi42ABpXDVErVglIIDc",
+  authDomain: "soursallysystem.firebaseapp.com",
+  projectId: "soursallysystem",
+  storageBucket: "soursallysystem.firebasestorage.app",
+  messagingSenderId: "1017313625680",
+  appId: "1:1017313625680:web:082bfd4f696a9efdac3355"
 };
 function cloudConfigured(){return firebaseConfig.apiKey && !firebaseConfig.apiKey.startsWith("GANTI_") && firebaseConfig.projectId && !firebaseConfig.projectId.startsWith("GANTI_")}
 function setCloudStatus(text,kind=""){let e=document.getElementById("cloudStatus");if(!e)return;e.textContent=text;e.className="badge "+kind}
